@@ -21,6 +21,9 @@
     "deploy": "gh-pages -d build"
 },
 
+"homepage": "https://sumanth078.github.io/Kanban_Board",
+
+
   "eslintConfig": {
     "extends": [
       "react-app",
