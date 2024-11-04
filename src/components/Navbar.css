@@ -1,0 +1,81 @@
+/* src/components/Navbar.css */
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+}
+
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar button img {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10;
+    width: 200px;
+}
+
+.dropdown-group, .dropdown-sort {
+    margin-bottom: 10px;
+}
+
+.dropdown-group span, .dropdown-sort span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.dropdown button {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #333;
+    text-align: left;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    background-color: #f0f0f0;
+}

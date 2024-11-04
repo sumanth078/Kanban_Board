@@ -1,0 +1,92 @@
+/* src/components/KanbanBoard.css */
+
+/* Main Kanban Board styling */
+.kanban-board {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+
+}
+
+/* Styling for each column */
+.kanban-column {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Column header styling */
+.kanban-column-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+}
+
+/* Profile icon for "Group by User" */
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+/* Column title (h2) styling */
+.kanban-column-header h2 {
+    font-size: 15px;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Card count styling */
+.kanban-column-header span {
+    font-size: 14px;
+    color: #666;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+/* Add and menu icons in column header */
+.kanban-column-header .icon {
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Container for cards in each column */
+.kanban-cards {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Extended width for cards in "Group by User" view */
+.extended-card-width {
+    width: 90%; /* Extend card width */
+    max-width: 800px; /* Maximum card width */
+    margin: 0 auto; /* Center the cards */
+}
+
+.status-icon, .priority-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
